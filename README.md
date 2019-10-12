@@ -46,5 +46,5 @@ pip3 install pyglet
 #### No universal solution found yet
 
 ## Furthert information 
-#### For extra info go to the originial repository's github page:
+#### For extra info go to the original repository's github page:
 https://github.com/duckietown/gym-duckietown
