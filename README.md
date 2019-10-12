@@ -20,7 +20,7 @@ apt-get install git
 ```
 pip install --upgrade pip
 
-git clone [https://github.com/duckietown/gym-duckietown.git]
+git clone https://github.com/duckietown/gym-duckietown.git
 cd gym-duckietown
 pip3 install -e .
 ```
@@ -47,4 +47,4 @@ pip3 install pyglet
 
 ## Furthert information 
 #### For extra info go to the originial repository's github page:
-[https://github.com/duckietown/gym-duckietown]
+https://github.com/duckietown/gym-duckietown
