@@ -2,7 +2,7 @@
 
 ## Getting started
 
-The following instructions are meant to be executed on Ubuntu. (We executed it successfully on Ubuntu 18.04.3 LTS)
+The following instructions are to be executed on Linux. (We executed it successfully on Ubuntu 18.04.3 LTS)
 
 ### 1. The following parts are inevitable
 
