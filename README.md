@@ -45,6 +45,6 @@ pip3 install pyglet
 ### 2. Can't find setup.py
 #### No universal solution found yet
 
-## Furthert information 
+## Further information 
 #### For extra info go to the original repository's github page:
 https://github.com/duckietown/gym-duckietown
