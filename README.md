@@ -10,7 +10,7 @@ The following instructions are to be executed on Linux. (We executed them succes
 - pip
 - git
 
-#### To install them on ubuntu run the following instructions in the command prompt
+#### To install them on Ubuntu run the following instructions in the command prompt
 ```
 apt-get install python3
 apt-get install python3-pip
@@ -18,7 +18,7 @@ apt-get install git
 ```
 ### 2. The neccessary packages and the git repository
 ```
-pip install --upgrade pip
+pip3 install --upgrade pip
 
 git clone https://github.com/duckietown/gym-duckietown.git
 cd gym-duckietown
