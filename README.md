@@ -11,11 +11,11 @@ The following instructions are meant to be executed on Ubuntu. (We executed it s
 - git
 
 #### To install them on ubuntu run the following instructions in the command prompt
-'''
+```
 apt-get install python3
 apt-get install python3-pip
 apt-get install git
-'''
+```
 ### 2. The neccessary packages and the git repository
 
 pip install --upgrade pip
