@@ -4,7 +4,7 @@
 
 The following instructions are to be executed on Linux. (We executed them successfully on Ubuntu 18.04.3 LTS)
 
-### 1. The following parts are inevitable
+### 1. The following tools/software are inevitable
 
 - Python
 - pip
