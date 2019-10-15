@@ -6,6 +6,8 @@ import math
 import numpy as np
 import gym
 from gym_duckietown.envs import DuckietownEnv
+import cv2
+
 
 # Parsing the input parameters
 parser = argparse.ArgumentParser()
@@ -47,8 +49,16 @@ while True:
     # Generating the change in the simulation environment
     obs, reward, done, info = env.step([Speed, Steering])
     ## obs Is the NxMx3 Array of pixels seen through the camera. We will use this as input in our network.
-    obs = obs[:,240:]
-    
+    obs = obs[100:,:,:]
+
+    # Visualizing the cropped image
+    cv2.imshow("Cropped", obs)
+    key = cv2.waitKey(1) & 0xFF
+    if(key == ord('q')):
+        cv2.destroyAllWindows()
+        break
+
+
     # Rendering the actual frame
     env.render()
     
