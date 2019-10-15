@@ -20,6 +20,7 @@ apt-get install git
 ### 2. The neccessary packages and the git repository
 ```
 pip3 install --upgrade pip
+pip3 install opencv-python
 
 git clone https://github.com/duckietown/gym-duckietown.git
 cd gym-duckietown
