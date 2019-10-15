@@ -1,4 +1,5 @@
-# Ducktales_DuckieTown_ReinforcementLearning
+# Ducktales DuckieTown ReinforcementLearning project
+This is a homework project for an elective subject at Budapest University of Tehcnology and Economics 
 
 ## Getting started
 
@@ -24,7 +25,10 @@ git clone https://github.com/duckietown/gym-duckietown.git
 cd gym-duckietown
 pip3 install -e .
 ```
-### Running the simulation with keybord input
+### Getting the content of this repository
+```
+git clone 
+```
 #### Run the following in command prompt
 ```
 python3 ./manual_control.py --env-name Duckietown-udem1-v0
