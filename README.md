@@ -27,20 +27,16 @@ pip3 install -e .
 ```
 ### Getting the content of this repository
 ```
+cd ~
 git clone https://github.com/bogarrichard/Ducktales_DuckieTown_ReinforcementLearning.git
 ```
 ### Injecting our code into the original repository's environment
-Get back to the hoome folder.
-```
-cd ~
-```
 Now copy the files from your local Ducktales_DuckieTown_ReinforcementLearning repository to the local gym-duckietown (Except the Readme file of course)
 #### Run the following in command prompt
 ```
 cd gym-duckietown
 python3 Our_Basic_Control.py
 ```
-
 #### If you are lucky it will open a window and run the simulation with our basic conrtol demonstration.
 
 ## Troubleshooting
